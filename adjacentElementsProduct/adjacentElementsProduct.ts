@@ -8,6 +8,7 @@ export const adjacentElementsProduct = (num: number[]): number => {
 console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]));  
 
 
+
 // export const adjacentElementsProduct = (num: number[]): number => {
 //     let greater = num[0] * num[1];
 
