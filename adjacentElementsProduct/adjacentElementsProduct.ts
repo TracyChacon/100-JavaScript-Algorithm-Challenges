@@ -1,12 +1,11 @@
 export const adjacentElementsProduct = (num: number[]): number => {
     let index = 0;
-
-    const productsArr = num.map(element => element * num[++index] );
+	
+    const productsArr = num.map(element => element * num[++index] );	
     productsArr.pop();
     return Math.max(...productsArr);
-}
-
-console.log(adjacentElementsProduct([3, 6, -2, -5, 3, 7]));  
+}	
+console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]));  
 
 
 // export const adjacentElementsProduct = (num: number[]): number => {
