@@ -17,6 +17,7 @@ export const allLongestStrings = (strArr: any[]): any[] => {
     return longestStrs;
 };
 
+
 console.log(allLongestStrings(["aba", "aa", "ad", "vcd", "aba"]));
 console.log(allLongestStrings(["aba", "aa", "ad", "vcd", "aadsfasdba"]));
 
