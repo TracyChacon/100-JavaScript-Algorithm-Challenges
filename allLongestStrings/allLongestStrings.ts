@@ -17,5 +17,33 @@ export const allLongestStrings = (strArr: any[]): any[] => {
     return longestStrs;
 };
 
+console.log(allLongestStrings(["aba", "aa", "ad", "vcd", "aba"]));
+console.log(allLongestStrings(["aba", "aa", "ad", "vcd", "aadsfasdba"]));
+
+
+
+
+
+
+
+
+
+// const allLongestStrings = (inputArray: string[]): string[] => {
+//     let longestLength = 0;
+//     const longestWords: string[] = [];
+
+//     inputArray.forEach((word: string) => {
+//         longestLength = longestLength < word.length ? word.length : longestLength;        
+//     });
+    
+//     inputArray.forEach((word: string) => {
+//         if(word.length === longestLength) {
+//             longestWords.push(word);
+//         }
+//     });
+
+//     return longestWords;
+// }
+
 // console.log(allLongestStrings(["aba", "aa", "ad", "vcd", "aba"]));
 // console.log(allLongestStrings(["aba", "aa", "ad", "vcd", "aadsfasdba"]));
