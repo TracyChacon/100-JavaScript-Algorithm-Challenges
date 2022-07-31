@@ -12,6 +12,8 @@ export const alphabetSubSequence = (s: string): boolean => {
     return true;
 };
 
+console.log(alphabetSubSequence("abefxz"));
+
 console.log(alphabetSubSequence("effg"));
 console.log(alphabetSubSequence("cdce"));
 console.log(alphabetSubSequence("ace"));
