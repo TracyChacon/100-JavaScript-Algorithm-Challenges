@@ -9,10 +9,8 @@ export const arrayChange = (inputArray :number[]): number => {
 
             count += difference;
         }
-
     }
     return count;
 };
 
-// console.log(arrayChange([1, 1, 1]));
-console.log(arrayChange([1, 45, 1, 20]));
+console.log(arrayChange([1, 45, 1, -4]));
