@@ -5,10 +5,10 @@ export const avoidObstacles = (inputArray: number[]): number => {
 
     for (let i = 1; i <= largestArrayVal + 1; i++) {
 
-        const isMinJump = inputArray.every((element) => element % i !== 0
+        const isMinJumpForEveryElement = inputArray.every((element) => element % i !== 0
        );
 
-        if(isMinJump) {
+        if(isMinJumpForEveryElement) {
             return i;
         }
     }
